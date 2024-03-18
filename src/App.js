@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import './index.css';
 import './App.css';
+import Hero from './components/Hero';
+import Evolution from './components/Evolution';
+import Influence from './components/Influence';
+import Innovators from './components/Innovators';
+import Believe from './components/Believe';
+import Footer from './components/Footer';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
+
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      // Global settings like duration, once, etc.
+      duration: 1200,
+    });
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Evolution />
+      <Influence />
+      <Innovators />
+      <Believe />
+      <Footer />
     </div>
   );
 }
