@@ -1,5 +1,4 @@
 import webLogo from "../assets/web-logo.png"
-import heroImg from '../assets/hero-img.jpg'
 import 'aos/dist/aos.css';
 
 function Hero() {

@@ -23,6 +23,7 @@ function Evolution(){
                         Uranus, the ruler of Aquarius, starts 2024 in retrograde, going direct on Saturday, January 27, then retrogrades again on Sunday, September 1. This suggests ongoing evolution in your home life and personal growth.
                         </p>
                         </div>
+                        
                     </div>
                 </div>
             </div>
