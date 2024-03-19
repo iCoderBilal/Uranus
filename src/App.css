@@ -11,8 +11,6 @@
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
   width: 100%;
-  
-  
 }
 
 .website-logo img{
@@ -31,7 +29,7 @@
 @media  screen and (max-width: 765px)
  {
   #hero-section{
-    min-height: 100vh;
+    min-height: 70vh;
     background-image: url("./assets/Hero-Bg-mb.png"); /* Path to your image */
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the background image */
@@ -60,7 +58,7 @@
 }
 
 .believe-video-section {
-  min-height: 100vh;
+
   background-image: url("./assets/Hero-Bg.png"); /* Path to your image */
   background-size: cover; /* Ensure the image covers the whole section */
   background-position: center; /* Center the background image */
@@ -72,7 +70,7 @@
 @media  screen and (max-width: 765px)
  {
   .believe-video-section{
-    min-height: 100vh;
+ 
     background-image: url("./assets/Hero-Bg-mb.png"); /* Path to your image */
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the background image */
