@@ -1,38 +1,54 @@
 function Believe() {
   return (
     <>
-      <div className="guide-section bg-gradient-to-r from-cyan-700 to-blue-800 p-5 lg:p-10 shadow-lg text-white">
-        <h2 className="text-2xl lg:text-4xl font-bold text-center mb-8">
-          How to Purchase Uranus Token (ANUS) on Solana
-        </h2>
-        <p className="mb-6 text-lg">
-          Follow this guide to secure your first $ANUS tokens on the Solana network, starting from wallet setup to transaction.
+      <div className="bg-gradient-to-br from-purple-800 to-blue-600 min-h-screen p-5 lg:p-10 text-white">
+  <div className="max-w-4xl mx-auto">
+    <h1 className="text-4xl lg:text-5xl font-bold text-center mb-10 underline">
+      Journey to Uranus: Acquire $ANUS
+    </h1>
+
+    <div className="space-y-10">
+      <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
+        <h2 className="text-3xl font-semibold mb-3">1. Prepare For Entry</h2>
+        <p>
+          Begin by visiting <a href="https://solflare.com/" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Solflare's website</a> to download the Solflare wallet. Follow the instructions to set up your wallet and securely store your seed phrase. If you prefer using a hardware wallet, Solflare supports connections with devices like Ledger.
         </p>
-
-        <div className="steps-section mb-8">
-          <h3 className="text-xl lg:text-2xl font-semibold mb-5">Set Up Solflare Wallet</h3>
-          <ol className="list-decimal pl-4 lg:pl-8 space-y-3 text-base lg:text-lg">
-            <li>
-              Visit <a href="https://solflare.com/" className="text-blue-300 hover:text-blue-200 underline" target="_blank" rel="noopener noreferrer">Solflare's website</a> to download the Solflare wallet. Then follow the setup instructions carefully. Solflare also supports hardware wallets.
-            </li>
-            <li>
-              Fund your wallet with Solana from any centralized exchange (Coinbase, Kraken, Binance, etc). After acquiring SOL, transfer it to your Solflare wallet address.
-            </li>
-          </ol>
-        </div>
-
-        <div className="buying-section">
-          <h3 className="text-xl lg:text-2xl font-semibold mb-5">Acquire Uranus Token (ANUS)</h3>
-          <ol className="list-decimal pl-4 lg:pl-8 space-y-3 text-base lg:text-lg" start="3">
-            <li>
-              With SOL in your wallet, access Jupiter, a DEX on Solana, at <a href="https://jup.ag" className="text-blue-300 hover:text-blue-200 underline" target="_blank" rel="noopener noreferrer">jup.ag</a> and connect your Solflare wallet.
-            </li>
-            <li>
-              Swap SOL for ANUS by entering the Uranus token contract address: <span className="font-mono text-sm lg:text-base bg-blue-900 p-1 rounded">9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc</span>. Decide on the amount of SOL you want to exchange, and confirm the transaction within your wallet.
-            </li>
-          </ol>
-        </div>
       </div>
+
+      <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
+        <h2 className="text-3xl font-semibold mb-3">2. Get Your Injection Ready</h2>
+        <p>
+          Fund Your Wallet with Solana (SOL): To engage in transactions on the Solana network, you'll need SOL, the native cryptocurrency, to cover transaction fees (gas). You can acquire SOL through centralized exchanges by trading fiat or other cryptocurrencies. Once you have SOL, withdraw it to your Solflare wallet address.
+        </p>
+        <p className="mt-4">
+          For those familiar with Metamask or Rabby, who may already have Ethereum consider using the <a href="https://core.allbridge.io/" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">Allbridge Core bridge</a> for a seamless transfer experience.
+        </p>
+      </div>
+
+      <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
+        <h2 className="text-3xl font-semibold mb-3">3. Inject Your Liquidity Into Uranus</h2>
+        <p>
+          It’s time to use the app to swap your sol into Uranus. Make sure it's the right one – no one likes ending up on the wrong planet. Decide how many SOL units you want to exchange, and confirm the transaction in your wallet. It’s like swapping space fuel for cosmic goodies!
+        </p>
+        <p className="mt-4 font-mono text-sm lg:text-base bg-blue-900 p-1 rounded">
+          9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc
+        </p>
+      </div>
+
+      <div className="journey-step bg-indigo-900 bg-opacity-80 shadow-xl p-5 lg:p-8 rounded-lg">
+        <h2 className="text-3xl font-semibold mb-3">4. Watch others pump Uranus</h2>
+        <p>
+          After your escapade, you might want to keep an eye on your intergalactic investment. Tools like <a href="https://www.dextools.io/app/en/solana/pair-explorer/your-token-pair" className="underline text-blue-300 hover:text-blue-200" target="_blank" rel="noopener noreferrer">DEX Screener</a> are your telescopes to the stars, helping you monitor the market movements and performance of your token.
+        </p>
+      </div>
+    </div>
+
+    <p className="mt-10 italic text-center">
+      The revolution is underway, you’re still early. Uranus: it’s more than a load of hot air. It’s the downfall of the false rulers of humanity 🙂
+    </p>
+  </div>
+</div>
+
 
       <div className="believe-video-section pb-20">
         <h1 className="text-[6vw] lg:text-5xl xl:text-6xl 2xl:text-7xl lg:px-[15vw] px-4 text-center text-white font-bold">
