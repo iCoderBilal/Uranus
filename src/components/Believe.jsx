@@ -5,8 +5,8 @@ function Believe() {
         <h1 className="pt-16 lg:pt-32 text-[7vw] lg:text-[2.5vw] lg:pl-[250px] lg:pr-[250px] pl-3 pr-3 leading-[9vw] lg:leading-[3vw] text-center text-white font-bold">
           In Crypto We Trust, But In Uranus, We Believe!
         </h1>
-        <p className="mt-14 text-[4vw] lg:text-[1.2vw] lg:pl-[33vw] lg:pr-[33vw] pl-5 pr-5 text-slate-300 lg:leading-[1.5vw] text-left">
-          - Everyone Loves to Pump Uranus more then they like when Uranus Dumps.
+        <p className="mt-14 text-[4vw] lg:text-[1.2vw] lg:pl-[33vw] lg:pr-[33vw] pl-5 pr-5 text-white lg:leading-[1.5vw] text-left">
+          - Everyone Loves to Pump Uranus more than they like when Uranus Dumps.
           <br />
           <br />
           - The liquidity injections just keep coming into Uranus.
@@ -45,7 +45,7 @@ function Believe() {
         <h1 className="pt-16 lg:pt-32 text-[7vw] lg:text-[2.5vw] lg:pl-[250px] lg:pr-[250px] pl-3 pr-3 leading-[9vw] lg:leading-[3vw] text-center text-white font-bold">
         The Memeifesto: Embrace the Wild Side of Crypto
         </h1>
-        <p className="mt-8 mb-14 text-[4vw] lg:text-[1.2vw] lg:pl-[33vw] lg:pr-[33vw] pl-3 pr-3 text-slate-300 lg:leading-[1.5vw] text-center">
+        <p className="mt-8 mb-14 text-[4vw] lg:text-[1.2vw] lg:pl-[33vw] lg:pr-[33vw] pl-3 pr-3 text-white lg:leading-[1.5vw] text-center">
         Welcome to the wild side of crypto - where memes aren't just dreams, and astrology isn’t just your daily horoscope.
         </p>
 
