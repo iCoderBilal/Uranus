@@ -3,6 +3,7 @@ import webLogo from "../assets/web-logo.png"
 function Footer(){
     return(
         <>
+        <div className="believe-section">
     <div className="footer pr-3 pl-3 lg:pr-[15vw] lg:pl-[15vw] pt-16 pb-16 lg:pt-24 lg:pb-24">
      <div className="footer-container flex flex-wrap lg:flex-nowrap">
 
@@ -39,6 +40,7 @@ function Footer(){
 
      </div>
 
+    </div>
     </div>
         </>
     )
