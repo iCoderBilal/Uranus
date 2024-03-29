@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 #hero-section{
   min-height: 100vh;
   background-image: url("./assets/Hero-Bg.png"); /* Path to your image */
@@ -11,6 +15,7 @@
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
   width: 100%;
+  overflow-x: hidden;
 }
 
 .website-logo img{
@@ -44,6 +49,7 @@
 
 #evolution{
   background: black;
+  overflow-x: hidden;
 
 }
 
@@ -85,3 +91,31 @@
 .footer{
   background: black;
 }
+
+
+
+/* ________________________________Brownpaper-Page_______________________________ */
+#brownpaper-page #hero-section h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+#brownpaper-maincontent br{
+  margin-top: -20px;
+}
+
+/* ------------------------------Exact-understanding--------------------- */
+#exact-understanding{
+  background: #222326;
+}
+
+/* -----------------------------brown-video--------------- */
+#brown-video {
+
+  background-image: url("./assets/Hero-Bg-mb.png");  /* Path to your image */
+  background-size: cover; /* Ensure the image covers the whole section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */ /* Minimum height of the section to ensure image visibility */
+  width: 100%;
+}
+
+

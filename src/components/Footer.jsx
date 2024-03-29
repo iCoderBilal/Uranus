@@ -14,7 +14,9 @@ function Footer(){
                 
                 <a href="https://dia.wiki/">Decentralized Intelligence Agency</a><br/>
                <a href="https://worldvibeweb.org/"> World Vibe Web</a><br/>
-               <a href="https://purplerock.xyz/"> Purplerock</a>
+               <a href="https://purplerock.xyz/"> Purplerock</a><br/>
+               <a href="https://mooworldorder.org/"> Moo World Order</a><br/>
+               <a href="https://themoonparty.org/"> Moon Party</a>
 </p>
         </div>
 

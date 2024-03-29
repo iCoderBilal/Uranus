@@ -1,14 +1,12 @@
 import React, { useEffect } from 'react';
 import './index.css';
 import './App.css';
-import Hero from './components/Hero';
-import Evolution from './components/Evolution';
-import Influence from './components/Influence';
-import Innovators from './components/Innovators';
-import Believe from './components/Believe';
-import Footer from './components/Footer';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import Homepage from './components/Homepage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import BrownPaper from './components/BrownPaper';
+
 
 
 
@@ -20,14 +18,16 @@ function App() {
       duration: 1200,
     });
   }, []);
+
   return (
     <div className="App">
-      <Hero />
-      <Evolution />
-      <Influence />
-      <Innovators />
-      <Believe />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path='/brownpaper' element={<BrownPaper />} />
+
+        </Routes>
+      </Router>
     </div>
   );
 }
