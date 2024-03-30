@@ -6,6 +6,7 @@ import AOS from 'aos';
 import Homepage from './components/Homepage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BrownPaper from './components/BrownPaper';
+import HowToBuy from './components/HowToBuy';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path='/brownpaper' element={<BrownPaper />} />
+          <Route path='/howtobuy' element={<HowToBuy />} />
 
         </Routes>
       </Router>
