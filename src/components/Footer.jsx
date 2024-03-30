@@ -2,6 +2,7 @@ import webLogo from "../assets/web-logo.png";
 import twitter from '../assets/twitter.png';
 
 function Footer() {
+    
   return (
     <>
       <div className="footer pr-3 pl-3 lg:pr-[15vw] lg:pl-[15vw] pt-16 pb-16 lg:pt-24 lg:pb-24">
